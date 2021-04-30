@@ -3,7 +3,7 @@
 **This repo contains the project which predicts how much calories you burn.**
 
 **Web App link**
-![Google Fit web app](https://share.streamlit.io/rahul-kad/googlefitapp/main)
+![Google Fit web app](https://share.streamlit.io/prasantkumar987/googlefitapp/main)
 
 ### Preview
 
@@ -11,14 +11,14 @@
 
 ## 1. Problem Statement: 
 A few months back I started using **Google Fit app.** This App counts your daily walking distnce-steps, running distance-steps, cycling distance-steps.
-Your **Heart points**, **calories** and many more things. So I downloded my google fit dataset from **takeout.google.com** website.
+Your **Heart points**, **calories** and many more things. So I downloaded my google fit dataset from **takeout.google.com** website.
 
 I wanted to predict how much **calories** we will burn if we give a walking, running and cycling distance.
 I used **Artificial Neural Network** to train my model.
 
-## 2. Model Trainning:
-To train my model I downloded additional dataset from kaggle. After that I dropped unncessary columns. 
-Using **Simple Imputer** module from scikit-learn library I handeled missing values, after that I had to use **Stander Scaler** to scale column values.
+## 2. Model Training:
+To train my model I downloaded additional dataset from kaggle.com. After that I dropped unnecessary columns. 
+Using **Simple Imputer** module from scikit-learn library I handled missing values, after that I had to use **Standard Scaler** to scale column values.
 
 **Parameters:**
 
@@ -62,7 +62,7 @@ At epochs 200-
 
 **Why did I used regularization?**
 
-On training dataset I got mean absoulte percenatge erroe as 0.79% but when I evaluted my model on testing dataset I got MAPE as 52.46%. So that means my model was having high variance, to reduce the high variance we can perform following steps:
+On training dataset I got mean absoulte percentage error as 0.79% but when I evaluted my model on testing dataset I got MAPE as 52.46%. So that means my model was having high variance, to reduce the high variance we can perform following steps:
 
 1. Add more training datset
 2. Regularization
@@ -79,11 +79,9 @@ To create a wep app and deploy I used **streamlit** library.
 
 ## 4. Credit:
 
-I would like to give creadit to google to develop such an amazing fitness app, to kaggle for providing necessasy dataset. 
+I would like to give credit to google to develop such an amazing fitness app, to kaggle for providing necessasy dataset. 
 
-I would like to thank to ![So you want to be a data scientist?](https://www.youtube.com/channel/UCpNUYWW0kiqyh0j5Qy3aU7w) youtube channel to provide such a good video explanation about how to create stramlit webapp.
-
-And to my friend ![Prasant Kumar](https://www.linkedin.com/in/prasant-kumar-a510bb192/) to help me with my project.
+And to my friend ![Rahul Kadam](https://www.linkedin.com/in/rahuljkadam/) who help me with this project.
 
 
 
